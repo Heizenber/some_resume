@@ -1,0 +1,290 @@
+* {
+    font-family: "Roboto", serif;;
+}
+
+
+body {
+    background-color: #b4aaaa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4 {
+    margin-top: 0;
+    padding: 0;
+}
+
+main {
+    margin: 30px auto 0 auto;
+    /* margin: 0 auto; */
+    padding: 2rem;
+    max-width: 850px;
+    min-width: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 2px #000000bb;
+}
+
+header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #201f1f;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    color: #201f1f;
+    margin: 0.2rem 0;
+}
+
+.blue {
+    color: rgb(32, 111, 151);
+    font-weight: bold;
+}
+
+hr {
+    margin: 0.7rem auto;
+    width: 90%;
+    border: 0.5px solid #cbc8c8bb;
+    box-shadow: 0 0 2px 0.3px #cbc8c8bb;
+}
+
+.links {
+    padding: 1rem 2rem;
+    background-color: #cbc8c8bb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.links div {
+    display: flex;
+    align-items: center;
+}
+
+.links div img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+
+
+.links div a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#github img, #leetcode img, #location img, #phone img, #linkedin img {
+    width: 30px;
+    height: 30px;
+}
+
+#email {
+    margin-left: -0.3rem
+}
+
+.expertise {
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.expertise h2 {
+    margin: 0.4rem, 0;;
+    color: #201f1f;
+}
+
+.expertise h2, .expertise h3 {
+    text-transform: uppercase;
+    color: rgb(32, 111, 151);
+}
+
+
+
+.technologies {
+    list-style: none;
+    margin: 0;
+}
+
+.technologies li {
+    display: inline-block;
+    margin: 0.3rem;
+    background-color: lightblue;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+.work-experience {
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.work-experience h2 {
+    color: rgb(32, 111, 151);
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: rgb(132, 140, 152);
+    margin: 0.2rem 0;  
+}
+
+.experience {
+    list-style: none;
+}
+
+.experience-list {
+    list-style-type: none;
+    margin-right: 3rem;
+}
+
+.experience-list li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -20px;
+    color: rgb(32, 111, 151); 
+}
+
+
+
+.certificates, .courses, .education, .languages {
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+
+.certificates h2, .courses h2 {
+    color: rgb(32, 111, 151);
+    text-transform: uppercase;
+}
+
+.certificates img, .courses img {
+    margin-right: 1rem;
+}
+
+.certificates ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.certificates ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.certificates ul h3 {
+    font-size: 1.4rem;
+}
+
+.certificates-list p {
+    margin-top: 0.2rem;
+}
+
+.date {
+    margin-bottom: 0.2rem;
+}
+
+.courses ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.courses ul img {
+    width: 50px;
+}
+
+.courses ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}   
+
+.education h2, .languages h2 {
+    color: rgb(32, 111, 151);
+    text-transform: uppercase;
+}
+
+.education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    margin: 0.2rem 0;
+}
+
+.enclosure {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header {
+    color: rgb(32, 111, 151);
+    text-transform: uppercase;
+}
+
+.qr-codes {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+.qr-codes img {
+    width: 150px;
+    height: 150px;
+}
+
+.qr-codes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-codes p {
+    margin: 0.2rem 0;
+}
+
+
+
